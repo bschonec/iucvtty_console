@@ -1,0 +1,7 @@
+# This file is managed by Puppet!
+#
+stop on runlevel [S016]
+start on runlevel [235]
+
+respawn
+exec <%= @iucvtty_binary %> <%= @terminal_id %> -- <%= @login_program %> <%= @login_options %>

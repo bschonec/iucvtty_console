@@ -1,0 +1,14 @@
+{
+  "name": "bschonecker-iucvtty_console",
+  "version": "0.1.0",
+  "author": "Brian Schonecker",
+  "summary": "Installs and configures serial console for IBM zVM/s390x/s390 linux servers.",
+  "license": "Apache 2.0",
+  "source": "https://github.com/bschonec/iucvtty_console.git",
+  "issues_url": "https://github.com/bschonec/iucvtty_console/issues",
+  "project_page": "https://github.com/bschonec/iucvtty_console",
+  "dependencies": [
+    {"version_requirement":">= 1.0.0","name":"puppetlabs-stdlib"}
+  ]
+}
+
